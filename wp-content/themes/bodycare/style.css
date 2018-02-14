@@ -1,0 +1,465 @@
+/*
+ Theme Name:   Bodycare
+ Theme URI:    http://netplace.com.pl/
+ Description:  Bodycare Theme
+ Author:       Sebastian Stolarski
+ Author URI:   http://netplace.com.pl/
+ Template:     zerif-lite
+*/
+
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Raleway Light'), local('Raleway-Light'), url(https://fonts.gstatic.com/s/raleway/v12/ZKwULyCG95tk6mOqHQfRBCEAvth_LlrfE80CYdSH47w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Raleway Light'), local('Raleway-Light'), url(https://fonts.gstatic.com/s/raleway/v12/-_Ctzj9b56b8RgXW8FArifk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/yQiAaD56cjx1AooMTSghGfY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v12/WmVKXVcOuffP_qmCpFuyzSEAvth_LlrfE80CYdSH47w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v12/JbtMzqLaYbbbCL9X6EvaI_k_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Raleway Medium'), local('Raleway-Medium'), url(https://fonts.gstatic.com/s/raleway/v12/Li18TEFObx_yGdzKDoI_ciEAvth_LlrfE80CYdSH47w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Raleway Medium'), local('Raleway-Medium'), url(https://fonts.gstatic.com/s/raleway/v12/CcKI4k9un7TZVWzRVT-T8_k_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(https://fonts.gstatic.com/s/raleway/v12/STBOO2waD2LpX45SXYjQBSEAvth_LlrfE80CYdSH47w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(https://fonts.gstatic.com/s/raleway/v12/xkvoNo9fC8O2RDydKj12b_k_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v12/gFXtEMCp1m_YzxsBpKl68iEAvth_LlrfE80CYdSH47w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v12/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v12/BYPM-GE291ZjIXBWrtCwemPHx8QIAbG0MeMM9fVyzAY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v12/BYPM-GE291ZjIXBWrtCwejOo-lJoxoMO4vrg2XwIHQk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body,
+.intro-text, .intro-text a,
+.navbar nav a {
+font-family: "Raleway", "Open Sans", sans-serif;
+color: #000;
+}
+
+.treatments.row,
+.onface.row,
+.eyes.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.treatments span.text {
+  display: block;
+  text-align: center;
+  padding: 10px 0 20px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.onface a,
+.onface span.text {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.eyes a,
+.eyes span.text {
+  display: block;
+  text-align: center;
+  padding: 10px 0 20px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+
+.eyes a,
+.onface a,
+.treatments a {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.eyes a span.text,
+.onface a span.text,
+.treatments a span.text {
+  display: block;
+  position: absolute;
+  min-height: 88px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #2f2f2f;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-weight: 700;
+  font-family: "Raleway", "Open Sans", sans-serif;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+
+.eyes a:hover span.text,
+.onface a:hover span.text,
+.treatments a:hover span.text {
+  padding: 40px 20px;
+  min-height: 128px;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+
+.treatments-grid {
+  padding: 30px 0;
+  background-color: rgba(255, 255, 255, .6);
+}
+
+.baner {
+  background-color: #fff;
+  padding: 150px 0 20px;
+}
+
+.baner h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: uppercase;
+  line-height: 24px;
+}
+
+.home .eyes a span.text,
+.home .onface a span.text,
+.home .treatments a span.text {
+  max-width: 341px;
+  left: 14px;
+}
+
+ul.price-list {
+  margin-bottom: 40px;
+}
+
+.page .site-content ul.price-list {
+  margin-left: 0;
+}
+
+.page .site-content ul.price-list li {
+  border-bottom: 1px solid #c4c4c4;
+  list-style-position: inside;
+  padding: 10px 20px 6px;;
+  list-style-type: circle;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  text-transform: lowercase;
+}
+
+.page .site-content ul.price-list li ul li {
+  border-bottom: 0;
+  padding-right: 0;
+}
+
+.page .site-content ul.price-list li .price {
+  float: right;
+  clear: both;
+  height: auto;
+  color: #000;
+  font-weight: 700;
+  line-height: 18px;
+  font-size: 16px;
+  margin-top: 4px;
+  font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+.menu-wrap {
+  background-color: #000;
+  text-align: left;
+}
+
+.menu-wrap .skip-link {
+  display: none;
+}
+
+#site-navigation {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: none;
+}
+
+#main-nav .navbar-header .navbar-brand {
+  float: right;
+}
+
+.menu-align-center .navbar-brand {
+  float: left;
+}
+
+.menu-align-center #site-navigation {
+  display: inline-block !important;
+  vertical-align: top;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.menu-align-center #site-navigation > ul {
+  text-align: left;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu-align-center #site-navigation > ul::before {
+  display: none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+
+.menu-align-center #site-navigation > ul > li > a {
+  color: #fff;
+}
+
+#main-nav {
+  min-height: auto !important;
+}
+
+.site-content .row {
+  margin-bottom: 40px;
+}
+
+.site-main p {
+  margin: 0 0 10px;
+}
+
+.entry-title,
+.entry-title a,
+.widget-title,
+.widget-title a {
+  color: #000;
+}
+
+.site-main p.title-price {
+  margin: 20px 0 0;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-size: 18px;
+  color: #000;
+}
+
+.site-main p.title-price:hover {
+  color: #e96656;
+}
+
+.site-main p.title-price:hover::after {
+  border-color: #e96656;
+}
+
+.site-main p.title-price:hover a {
+  color: #e96656;
+}
+
+.site-main p.title-price a {
+  color: #000;
+  font-weight: 700;
+}
+
+.title-price::after {
+  content: '\f129';
+  width: 18px;
+  height: 18px;
+  margin: 2px 0 0 7px;
+  font: normal normal normal 14px/1 FontAwesome;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #000;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 16px;
+  font-size: 9px;
+}
+
+a {
+  &:hover {
+    color: #e96656;
+  }
+}
+
+.heading-seperate {
+  display: block;
+  margin: 15px 0 30px;
+}
+
+ul,
+ol {
+  margin-left: 20px;
+}
+
+.menu-align-center #site-navigation {
+  position: relative;
+  padding-left: 45px;
+}
+.menu-align-center #site-navigation > ul > li#menu-item-444 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.menu-align-center #site-navigation > ul > li#menu-item-444 a {
+  font-size: 0;
+
+  display: inline-block !important;
+  vertical-align: top;
+  content: '';
+  width: 55px;
+  height: 55px;
+  background-image: url(http://netplace.com.pl/paznokcie/wp-content/uploads/2017/10/menu.png);
+  -webkit-background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position-y: 5px;
+}
+
+.entry-title:after {
+  background: #e5412b;
+}
+
+.pirate_forms_wrap {
+  margin: 0 -15px;
+  float: none;
+}
+
+.pirate_forms_wrap form input,
+.pirate_forms_wrap form textarea {
+  border-radius: 0 !important;
+  box-shadow: none;
+  border: 1px solid #ccc;
+}
+
+#post-15 h2 {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+#footer,
+.copyright {
+  background-color: #000;
+}
+
+/* form newsletter */
+#mc_embed_signup form {
+  padding: 0 !important;
+}
+
+#menu-lista-zabiegow li {
+  color: #000;
+  font-weight: 700;
+}
+
+  #menu-lista-zabiegow li a {
+    color: #000;
+  }
+
+  #menu-lista-zabiegow li li {
+    font-weight: 400;
+  }
